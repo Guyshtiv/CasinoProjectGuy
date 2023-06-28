@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blueColor">#AA175387</color>
+    <color name="wrongAnswerColor">#8A0D0D</color>
+    <color name="noTimeAnswerColor">#AAADB6B6</color>
+    <color name="rightAnswerColor">#AA1FB615</color>
+    <color name="nothing">#00B41717</color>
+    <color name="beautiful_day_button_gradient_start">#1DB2DA</color>
+    <color name="beautiful_day_button_gradient_end">#073F51</color>
+    <color name="menu_item_text_color">#FFFFFF</color>
+    <color name="menu_item_icon_color">#FFFFFF</color>
+    <color name="menu_item_background_color">#1E88E5</color>
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="transparent">#00AAAAAA</color>
+
+    <color name="brown">#713202</color>
+    <color name="light_brown">#5f4038</color>
+    <color name="brown_gold">#B78628</color>
+    <color name="Light_brown_gold">#DBA514</color>
+    <color name="american_yellow">#EEB609</color>
+    <color name="yellow">#FCC201</color>
+    <color name="red">#CA0707</color>
+    <color name="light_red">#D82424</color>
+    <color name="gray">#AAAAAA</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="blue">#155EB6</color>
+    <color name="light_blue">#4C7BB5</color>
+    <color name="cyan">#376e82</color>
+    <color name="light_cyan">#4a94ad</color>
+    <color name="table_green">#006138</color>
+    <color name="light_green">#037E43</color>
+    <color name="green">#04B61B</color>
+    <color name="light_body_color">#d6ba73</color>
+    <color name="body_color">#C5A450</color>
+</resources>

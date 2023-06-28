@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CasinoProgectGuy"
+        tools:targetApi="31">
+        <activity
+            android:name=".luckyWheel.LuckyRouletteActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".blackjack.BlackjackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".slotMachine.SlotMachineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".winners.WinnersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".luckyWheel.BetSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".registration.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".registration.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- If this receiver listens for broadcasts sent from the system or from
+        other apps, even other apps that you own, set android:exported to "true". -->
+        <receiver android:name=".notification.NotificationReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="APP_SPECIFIC_BROADCAST" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
